@@ -75,7 +75,7 @@ form{
 #error-message {
     color: red;
     font-size: 14px;
-    margin-left: 10px; /* To align with the label */
+    float: right; /* To align with the label */
     display: none; /* Initially hidden */
 }
 
