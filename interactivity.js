@@ -8,9 +8,9 @@ const successMessage = document.getElementById('success-message');
 
 function validateEmail(){
     if(email.validity.valueMissing){
-        errorMessage.textContent = 'Email required';
+        errorMessage.innerHTML = 'Email required';
     } else if(email.validity.typeMismatch){
-        errorMessage.textContent = 'valid email required';
+        errorMessage.innerHTML = 'valid email required';
     }
 }
 
