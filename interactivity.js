@@ -19,7 +19,7 @@ form.addEventListener('submit', (e) => {
         errorMessage.textContent = "Email is required!";
         errorMessage.style.display = "inline";
     } else if (!emailRegex.test(emailValue)) {
-        errorMessage.textContent = "Please enter a valid email address!";
+        errorMessage.textContent = " valid email required!";
         errorMessage.style.display = "inline";
     } else {
         errorMessage.style.display = "none";
