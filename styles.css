@@ -72,10 +72,11 @@ form{
     display: block;
 }
 
-.label span{
-    float: right;
-    color: #FF3F3F;
-    font-size: 12px;
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px; /* To align with the label */
+    display: none; /* Initially hidden */
 }
 
 input[type="email"]{
