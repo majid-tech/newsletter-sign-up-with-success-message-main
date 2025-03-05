@@ -24,7 +24,7 @@ form.addEventListener('submit', (e) => {
     } else {
         errorMessage.style.display = "none";
         successMessageContainer.style.display = 'block';
-        successMessage.innerHTML = `A confirmation email has been sent to ${emailValue}.
+        successMessage.innerHTML = `A confirmation email has been sent to <b>${emailValue}</b>.
         Please open it and click the button inside to confirm your subscription.`;
     }
 });
