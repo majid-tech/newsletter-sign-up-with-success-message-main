@@ -51,7 +51,7 @@ ul li {
 
 ul li::before {
     content: "";
-    background: url('/assets/images/icon-list.svg') no-repeat center;
+    background: url('/icon-list.svg') no-repeat center;
     background-size: contain;
     width: 16px;
     height: 16px;
@@ -109,7 +109,7 @@ button:hover{
 .image{
     width: 50%;
     height: 500px;
-    background-image: url(/assets/images/illustration-sign-up-desktop.svg);
+    background-image: url(/illustration-sign-up-desktop.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ button:hover{
     }
 
     .image{
-        background-image: url(/assets/images/illustration-sign-up-mobile.svg);
+        background-image: url(/illustration-sign-up-mobile.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
