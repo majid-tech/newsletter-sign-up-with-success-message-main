@@ -72,6 +72,12 @@ form{
     display: block;
 }
 
+.label span{
+    float: right;
+    color: #FF3F3F;
+    font-size: 12px;
+}
+
 input[type="email"]{
     background-color: #FFFFFF;
     border: 1px solid #E0E0E0;
@@ -101,5 +107,63 @@ button:hover{
 
 .image{
     width: 50%;
-    height: 100%;
+    height: 500px;
+    background-image: url(/assets/images/illustration-sign-up-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.success-message {
+    display: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .card-container{
+        flex-direction: column-reverse;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .image{
+        background-image: url(/assets/images/illustration-sign-up-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+
+    .success-message {
+        height: 100vh;
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }   
+    
+    .success-message .message{
+        margin-top: 100px;
+    }
+
+    .success-message button{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
 }
